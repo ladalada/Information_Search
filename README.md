@@ -8,3 +8,25 @@ https://docs.google.com/document/d/1vPZ4E9NfMowo5TKF2N2g0Kqq_sX23rQbleLHDhcApYE/
 
 ### Dataset
 https://www.brandwatch.com/blog/most-twitter-followers/
+
+### Implementation
+#### 1.1. Data Сollection 
+
+Description of notebooks/1.1.DataСollection.ipynb:
+* Collecting a list of users from a specified resource using the Beautiful Soup library. See data/usernames.txt
+* Collecting a collection of documents from users' twitter using the twint library. See data/part_of_initial_data.csv
+
+#### 1.2. Data Сleaning
+
+Description of notebooks/1.2.DataСleaning.ipynb:
+* Removing from the text tweets links to resources, images and videos
+* Delete tweets from the text of all characters except letters
+* Remove tweets from less than 50 characters
+
+See data/part_of_cleared_data.csv
+
+Description of 1.2.RemovingStopwords.ipynb:
+* Remove stop words from tweet text
+* Selection of document attributes
+
+See data/part_of_data_without_stopwords.csv
