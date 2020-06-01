@@ -30,3 +30,12 @@ Description of 1.2.RemovingStopwords.ipynb:
 * Selection of document attributes
 
 See data/part_of_data_without_stopwords.csv
+
+#### 2. Exploratory Data Analysis 
+
+Description of notebooks/2.ExploratoryDataAnalysis.ipynb:
+* Number of tweets per users
+* The most common words, mentions, hashtags on tweets
+* The ratio of the number of tweets with and without mentions, hashtags, photos, video
+* The distribution of the number of tweets by date and time of publication
+* Distribution of the average number of replies, likes and retweets by the date and time of publication
